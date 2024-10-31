@@ -1,0 +1,52 @@
+import { t } from "./e";
+import { HashMap } from '@kit.ArkTS';
+export declare class o1 extends t {
+    static readonly e2 = 0;
+    static readonly f2 = 1;
+    static readonly g2 = 2;
+    static readonly h2 = 3;
+    type: number;
+    typeName: string;
+    foreground: boolean;
+    pid: number;
+    s1: string;
+    exceptionName: string;
+    exceptionMsg: string;
+    exceptionStack: string | null;
+    t1: q1[] | null;
+    u1: boolean;
+    signo: number;
+    code: number;
+    threadName: string;
+    tid: number;
+    d2?: HashMap<string, string> | null;
+    rss: number;
+    pss: number;
+    vss: number;
+    v1: number;
+    w1: number;
+    z1: number;
+    a2: string[] | null;
+    b2: HashMap<string, string> | null;
+    c2: string | null;
+    l1?: HashMap<string, string> | null;
+    appLaunchTime: number;
+    q16?: Array<string>;
+    r16?: number;
+    s16?: number;
+    t16?: number;
+    u16?: number;
+    v16?: number;
+    constructor();
+    c1(): string;
+}
+export declare class q1 {
+    index: number;
+    symbol: string;
+    file: string;
+    buildId: string;
+    pc: string;
+    offset: number;
+    row: number;
+    column: number;
+}
