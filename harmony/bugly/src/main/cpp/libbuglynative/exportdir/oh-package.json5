@@ -1,0 +1,6 @@
+{
+  "name": "libbuglynative.so",
+  "types": "./index.d.ts",
+  "version": "0.0.1",
+  "description": "bugly native module."
+}

@@ -1,0 +1,12 @@
+{
+  license: '',
+  devDependencies: {},
+  author: '',
+  name: '@react-native-oh-tpl/rn-bugly',
+  description: '',
+  main: 'index.ets',
+  version: '1.3.0-beta.3-0.0.1',
+  dependencies: {
+    "@rnoh/react-native-openharmony": 'file:../react_native_openharmony'
+  },
+}

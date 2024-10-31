@@ -1,0 +1,20 @@
+export const setGuid: (guid: string) => void;
+export const zipCallback: (zippedFileNum: number, callbackPtr: number) => void;
+export const requestCallback: (httpCode: number, response: string, callbackPtr: number) => void;
+export const uploadFiles: (params: Object) => void;
+export const addLogDirPath: (logPath: string) => void;
+export const syncConfig: (forceRequest: boolean) => void;
+export const setNetworkType: (type: number) => void;
+export const initDiagnose: (params: Object) => void;
+
+export const registerHttpPost: (content: (url: string, body: string, appId: string, appKey: string, callBackPtr: number) => boolean) => void;
+export const registerHttpPut: (content: (url: string, path: string, fileName: string, headerKeysArray: Array<string>, headerValuesArray: Array<string>, callbackPtr: number) => boolean) => void;
+export const registerLocalDataLoad: (content: (keysArray: Array<string>) => Array<string>) => void;
+export const registerSaveDataToLocal: (content: (keysArray: Array<string>, valuesArray: Array<string>) => void) => void;
+export const registerRemoveLocalData: (content: (keysArray: Array<string>) => void) => void;
+export const registerHmacSha1: (content: (text: string, key: string) => string) => void;
+export const registerZipFile: (content: (fileList: Array<string>, outPath: string, callbackPtr: number) => void) => void;
+export const registerDoMd5: (content: (data: ArrayBuffer, len: number) => string) => void;
+export const registerSetLogLevel: (content: (level: number, endTime: number) => void) => void;
+export const registerResetLogColorLevel: (content: () => void) => void;
+export const registerUploadFilesArkTsCallBack: (content: (isSuccess: boolean) => void) => void;
